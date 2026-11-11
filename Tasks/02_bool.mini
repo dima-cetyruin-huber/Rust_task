@@ -1,0 +1,21 @@
+// Литералы true/false
+let t = true;
+let f = false;
+
+print t;          // true
+print f;          // false
+
+// Все операции сравнения для чисел
+let x = 5;
+let y = 10;
+
+print x == y;     // false
+print x != y;     // true
+print x < y;      // true
+print x > y;      // false
+print x <= 5;     // true
+print y >= 10;    // true
+
+// Сравнение самих булевых значений
+print t == f;     // false
+print t != f;     // true
